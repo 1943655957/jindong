@@ -1,3 +1,10 @@
+	/*作者：曹东博
+	时间：2017-06-13
+	邮箱：1943655957@qq.com*/
+
+
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -534,7 +541,18 @@ dd::before{
 
 
 /****************************body_a***************************/
-
+#body_a{
+	position: relative;
+}
+.body_a_bigbanner{
+	position: absolute;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+    background: url(../images/bigbanner.png)no-repeat center;
+    width: 100%;
+    z-index: -1;
+}
 .body_a_wrap{
 	height: 480px;
 	background-color: #f6f6f6;
@@ -1279,4 +1297,266 @@ dd::before{
     height: 210px;
     margin: 0 10px 10px 0;
     overflow: hidden;
+}
+#jdcs .wrap .shop .bottom{
+    float: left;
+    zoom: 1;
+}
+#jdcs .wrap .shop .bottom ul{
+	position: relative;
+    width: 1005px;
+    height: 115px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+#jdcs .wrap .shop .bottom ul li{
+	float: left;
+    width: 240px;
+    height: 106px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+}
+#jdcs .wrap .shop ul img{
+	transition: opacity 0.2s;
+}
+/*body_b*/
+#body_b{
+	height: 444px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+#body_b .wrap{
+	margin: 0 auto;
+    width: 1190px;
+}
+#body_b .wrap .fore1{
+	width: 390px;
+    height: 444px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+#body_b .wrap .fore1 .top{
+	position: relative;
+    padding: 0 20px 0 30px;
+    height: 55px;
+    line-height: 55px;
+    color: #fff;
+    background: #4998a1;
+}
+#body_b .wrap .fore1 .top .arrow{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 19px solid #f6f6f6;
+    border-right: 19px solid transparent;
+}
+#body_b .wrap .fore1 .top .dec{
+	background: url(../images/sprite1.png)no-repeat -190px -96px;	
+	width: 28px;
+    height: 28px;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+}
+#body_b .wrap .fore1 .top h3{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    padding-top: 9px;
+    float: left;
+}
+#body_b .wrap .fore1 .top a{
+	position: relative;
+    float: right;
+    margin-top: 19px;
+    padding-right: 20px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+}
+#body_b .wrap .fore1 .top a i{
+	background: url(../images/sprite1.png)no-repeat -154px -40px;	
+	width: 15px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+	
+}
+#body_b .wrap .fore1 .bottom{
+	padding: 10px;
+    height: 369px;
+    background: #FFFFFF;
+}
+#body_b .wrap .fore1 .bottom ul{
+	width: 370px;
+    height: 363px;
+    overflow: hidden;
+}
+#body_b .wrap .fore1 .bottom ul li{
+	float: left;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+#body_b .wrap .fore1 .bottom ul li a{
+	display: block;
+    width: 185px;
+    height: 120px;
+    position: relative;
+    color: #666666;
+}
+#body_b .wrap .fore1 .bottom ul li a p{
+	font-size: 14px;
+    color: #4998a1;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 80px;
+    line-height: 20px;
+    z-index: 1;
+    word-wrap: break-word;
+}
+#body_b .wrap .fore1 .bottom ul li a img{
+	position: absolute;
+    bottom: 5px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    transition: transform .4s ease-out;
+    vertical-align: middle;
+    transform: translateX(0);
+}
+#body_b .wrap .fore1 .bottom ul li.fore2{
+	border-right: 0;
+    margin-right: -1px;
+    padding-left: 0;
+    height: 120px;
+}
+#body_b .wrap .ypzj{
+	background: #76488e !important;
+}
+
+#body_b .wrap .ypzj .dec{
+	background:url(../images/ypzj.png) !important;
+}
+#body_b .wrap .phb{
+	background: #e77005 !important;
+}
+#body_b .wrap .phb .dec{
+	background-position: -190px 0 !important;
+}
+
+/*body_c*/
+#body_C{
+	margin-bottom: 30px;
+}
+#body_C .wrap{
+	margin: 0 auto;
+    width: 1190px;
+}
+#body_C .wrap ul{
+	height: 100px;
+}
+#body_C .wrap ul li{
+	float: left;
+    width: 396px;
+    height: 100%;
+}
+#body_C .wrap ul li img{
+	transition: opacity .2s;
+}
+/***********************享品质******************************/
+#ash{
+	height: 578px;
+	margin-bottom: 30px;
+}
+#ash .tittle{
+	overflow: hidden;
+    padding: 0 0 20px;
+    height: 35px;
+    background: url(../images/ash.png) repeat-x 0 18px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 1190px;
+}
+#ash .tittle h3{
+	display: inline;
+    padding: 0 50px;
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333;
+}
+#ash .inner{
+	margin: 0 auto;
+    width: 1190px;
+}
+#ash .inner .fore{
+	float: left;
+    width: 590px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#ash .inner .fore .top{
+	background-color: #974676;
+	height: 26px;
+    padding: 16px 20px 16px 25px;
+}
+#ash .inner .fore .top h3{
+	float: left;
+    font-size: 22px;
+    color: #fff;
+    height: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 100px;
+    font-family: fzzhengheis-el-gbregular;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#ash .inner .fore .top .ewm{
+	float: left;
+    position: relative;
+    height: 32px;
+    z-index: 10;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/ewm.png);
+    margin-top:6px
+}
+#ash .inner .fore .top ul{
+	float: right;
+    width: 405px;
+    height: 28px;
+    text-align: right;
+    overflow: hidden;
+}
+#ash .inner .fore .top ul li{
+	display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    background-color: hsla(0,0%,100%,0.2);
+    border-color: #c187af;
+}
+#ash .inner .fore .top ul li a{
+    color: #fff;	
 }

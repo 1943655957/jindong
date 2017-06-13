@@ -1,4 +1,15 @@
 window.onload=function(){
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 //判断浏览器
 function myBrowser(){
@@ -511,11 +522,64 @@ jdmsLR[0].onclick=function(){
 		},20)
 	}
 }
+//京东超市图片
+var jdcs=document.getElementById('jdcs').getElementsByTagName('img');
+for(i=0;i<jdcs.length;i++){
+	jdcs[i].onmouseover=function(){
+		this.style.opacity=0.8
+		this.style.filter='alpha(opacity=80)'
+	}
+	jdcs[i].onmouseout=function(){
+		for(y=0;y<jdcs.length;y++){
+			jdcs[y].style.opacity=1
+			this.style.filter='alpha(opacity=100)'	
+		}
+	}
+}
+
+//京东好货移动
+var jdhh=document.getElementById('jdhh').getElementsByTagName('img')
+for(i=0;i<jdhh.length;i++){
+	jdhh[i].onmouseover=function(){
+		this.style.transform="translateX(15px)"
+	}
+	jdhh[i].onmouseout=function(){
+		this.style.transform="translateX(0)"
+	}
+}
+
+var jdhh2=document.getElementById('jdhh2').getElementsByTagName('img')
+for(i=0;i<jdhh.length;i++){
+	jdhh2[i].onmouseover=function(){
+		this.style.transform="translateX(15px)"
+	}
+	jdhh2[i].onmouseout=function(){
+		this.style.transform="translateX(0)"
+	}
+}
 
 
-
-
-
+var jdhh3=document.getElementById('jdhh3').getElementsByTagName('img')
+for(i=0;i<jdhh.length;i++){
+	jdhh3[i].onmouseover=function(){
+		this.style.transform="translateX(15px)"
+	}
+	jdhh3[i].onmouseout=function(){
+		this.style.transform="translateX(0)"
+	}
+}
+//body_C
+var bodyc=document.getElementById('body_c').getElementsByTagName('img')
+for(i=0;i<bodyc.length;i++){
+	bodyc[i].onmouseover=function(){
+		this.style.opacity=0.8
+		this.style.filter='alpha(opacity=80)'
+	}
+	bodyc[i].onmouseout=function(){
+		this.style.opacity=1
+		this.style.filter='alpha(opacity=100)'
+	}
+}
 
 
 
