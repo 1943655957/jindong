@@ -1560,3 +1560,253 @@ dd::before{
 #ash .inner .fore .top ul li a{
     color: #fff;	
 }
+#ash .inner .fore .top ul li:hover{
+	border-color: #fff;
+}
+#ash .inner .fore .bottom{
+	padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#ash .inner .fore .bottom .jd .one{
+	position: relative;
+    float: left;
+    width: 183px;
+    height: 260px;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+}
+#ash .inner .fore .bottom .jd .one img{
+	transition: 0.5s;
+}
+#ash .inner .fore .bottom .jd .two{
+	float: left;
+    width: 376px;
+    height: 260px;
+    position: relative;
+}
+#ash .inner .fore .bottom .jd .two .x{
+	position: absolute;
+	top: 130px;
+    left: 0;
+    width: 500px;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+#ash .inner .fore .bottom .jd .two .y{
+	position: absolute;
+	top: 0;
+    left: 188px;
+    width: 1px;
+    height: 264px;
+    background-color: #e6e6e6;
+}
+#ash .inner .fore .bottom .jd .two a{
+	position: relative;
+    float: left;
+    width: 188px;
+    height: 130px;
+}
+#ash .inner .fore .bottom .jd .two a .q{
+	position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 14px;
+    color:#78538e;
+    max-width: 130px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    z-index: 1;
+}
+#ash .inner .fore .bottom .jd .two a .w{
+	position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 12px;
+    color: #666;
+    max-width: 50px;
+    z-index: 1;
+}
+#ash .inner .fore .bottom .jd .two a img{
+	position: absolute;
+    bottom: 10px;
+    right: 5px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #f7f7f7;
+    transition: 0.5s;
+}
+#ash .inner .fore .bottom .jd .three{
+	clear: both;
+    height: 130px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+#ash .inner .fore .bottom .jd .three a{
+	float: left;
+    width: 183px;
+    height: 130px;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+}
+#ash .inner .fore .bottom .jd .three a img{
+	transition: 0.5s;
+}
+#ash .inner .fore .bottom .jd2{
+	padding: 10px 0 0;
+    clear: both;
+    background-color: #fff;
+    position: relative;
+}
+#ash .inner .fore .bottom .jd2 li{
+	float: left;
+    border-right: 1px solid #dedfe0;
+    padding: 0 12px;
+    height: 20px;
+    margin-top: 7px;
+}
+#ash .inner .fore .bottom .jd2 li img{
+	display: block;
+    width: 70px;
+    height: 35px;
+    margin-top: -7px;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+#ash .inner .fore .aml{
+	background: #cd375e !important;
+}
+/**************************footer**********************************/
+#footer{
+	height: 500px;
+    background: #eaeaea;
+   	padding-bottom: 100px;
+}
+#footer .service{
+	padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+#footer .service ul{
+	margin: 0 auto;
+    width: 1190px;
+    overflow: hidden;
+    height: 42px;  
+}
+#footer .service ul li{
+	float: left;
+    width: 297px;
+}
+#footer .service ul li .write{
+	position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 180px;
+}
+#footer .service ul li .write h5{
+	overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 42px;
+   	background: url(../images/dkhs.png);
+    text-indent: -999px;
+}
+#footer .service ul li .write p{
+	overflow: hidden;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+#footer .service ul li .write h5.kuai{
+	background-position: 0 -43px !important;
+}
+#footer .service ul li .write h5.hao{
+	background-position: 0 -86px !important;
+}
+#footer .service ul li .write h5.sheng{
+	background-position: 0 -129px !important;
+}
+#footer .help{
+	padding: 20px 0;
+}
+#footer .help .write{
+	margin: 0 auto;
+    width: 1190px;
+    overflow: hidden;
+    height: 160px;
+}
+#footer .help .write .shoping{
+	float: left;
+    width: 198px;
+    line-height: 22px;
+}
+#footer .help .write .shoping h5{
+	margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+#footer .help .write .shoping a{
+	color: #666;
+}
+#footer .lxwm .write{
+	padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    margin: 0 auto;
+    width: 1190px;
+}
+#footer .lxwm .write  a{
+	color: #666;
+}
+#footer .lxwm .write span{
+	margin: 0 10px;
+    color: #ccc;
+}
+#footer .lxwm .write .center{
+	padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+}
+#footer .lxwm .write .center a{
+	color: #999;
+}
+#footer .lxwm .write .bottom a{
+	overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+	background: url(../images/ba.png);
+    line-height: 1000px;
+}
+#footer .lxwm .write .bottom a.icon1{
+	background-position: 0 -151px;
+}
+#footer .lxwm .write .bottom a.icon2{
+	background-position: -104px -151px;
+}
+#footer .lxwm .write .bottom a.icon3{
+	background-position: 0 -184px;
+}
+#footer .lxwm .write .bottom a.icon4{
+	background-position: -104px -184px;
+}
+#footer .lxwm .write .bottom a.icon5{
+	background-position: 0 -217px;
+}
+#footer .lxwm .write .bottom a.icon6{
+	background-position: -104px -217px;
+}

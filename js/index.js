@@ -582,8 +582,27 @@ for(i=0;i<bodyc.length;i++){
 }
 
 
+//家电馆
+var jdg=document.getElementById('jdg').getElementsByTagName('img')
+for(i=0;i<jdg.length;i++){
+	jdg[i].onmouseover=function(){
+		this.style.transform="translateX(-10px)"
+	}
+	jdg[i].onmouseout=function(){
+		this.style.transform="translateX(0)"
+	}
+}
 
-
+//服装城
+var fzc=document.getElementById('fzc').getElementsByTagName('img')
+for(i=0;i<fzc.length;i++){
+	fzc[i].onmouseover=function(){
+		this.style.transform="translateX(-10px)"
+	}
+	fzc[i].onmouseout=function(){
+		this.style.transform="translateX(0)"
+	}
+}
 
 
 
